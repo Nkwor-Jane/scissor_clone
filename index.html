@@ -134,9 +134,9 @@
         <div class="price_range_flex">
             <div class="price_range_1 border_side_left">
                 <p>Basic</p>
-                <p>Free</p>
+                <p class="p_size">Free</p>
                 <p>Free plan for all users</p>
-                <ul>
+                <ul >
                     <li><img src="./assets/check-circle.png" alt="Check circle"/> URL Shortening</li>
                     <li><img src="./assets/check-circle.png" alt="Check circle"/>Basic Link Analytics</li>
                     <li><img src="./assets/check-circle.png" alt="Check circle"/>Customizable Short Links</li>
@@ -146,7 +146,7 @@
             </div>
             <div class="price_range_2">
                 <p>Professional</p>
-                <p>$15/month</p>
+                <p class="p_size">$15/month</p>
                 <p>ideal for business creators</p>
                 <ul>
                     <li><img src="./assets/check-circle.png" alt="Check circle"/>Enhanced Link Analytics</li>
@@ -159,7 +159,7 @@
 
             <div class="price_range_1 border_side_right">
                 <p>Teams</p>
-                <p>$25/month</p>
+                <p class="p_size">$25/month</p>
                 <p>Share with up to users</p>
                 <ul>
                     <li><img src="./assets/check-circle.png" alt="Check circle"/>Team Collaboration</li>
@@ -171,7 +171,7 @@
             </div>
     </div>
 
-        <div>
+        <div class="price_range_btn">
             <button class="btn_transparent">Get Custom Pricing</button>
             <button class="btn_blue"> Select Pricing</button>
         </div>
@@ -181,15 +181,15 @@
         <form>
             <input type="text" placeholder="Paste URL here...">
             <div class="background_deep_blue_flex">
-                <select name="domain" title="domain">
-                    <option value="choose">Choose Domain</option>
+                <select name="domain" title="domain" class="choose_color">
+                    <option value="choose" class="choose_color">Choose Domain</option>
                     <option value="one"> Domain One</option>
                     <option value="two">Domain Two</option>
                 </select>
                 <input type="text" placeholder="Type Alias here">
             </div>
             
-            <button type="submit" class="btn_blue">Trim URL <img src="./assets/wand.png" alt="wand"></button>
+            <button type="submit" class="btn_blue trim_btn">Trim URL <img src="./assets/wand.png" alt="wand"></button>
             <p>By clicking TrimURL, I agree to the <span>Term of Service,</span>
                 <span>Privacy Policy</span> and Use of Cookies.</p>
         </form>

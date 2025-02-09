@@ -51,6 +51,7 @@ button{
     padding: 10px 30px;
     font-weight: 500;
     border-radius: 20px;
+    font-weight: 400;
 }
 .btn_blue{
     background-color: var(--font-blue);
@@ -70,6 +71,8 @@ button{
 .btn_transparent{
     border: 1px solid var(--font-blue);
     background-color: transparent;
+    color: var(--font-blue);
+
 }
 .align_center{
     display: flex;
@@ -117,7 +120,7 @@ button{
     padding: 10px;
 }
 .details_sec{
-    margin-top: 168px;
+    margin-top: 220px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -125,6 +128,9 @@ button{
     gap: 20px;
     padding: 10px;
     background-color: #F9FBFD;
+}
+.details_sec h3{
+    font-size: 2rem;
 }
 .span_blue{
     color: var(--font-blue);
@@ -145,9 +151,10 @@ button{
     justify-content: space-between;
     gap: 40px;
     padding: 20px;
+    margin: 0 20px;
 }
 .choose_sec_first_div{
-    width: 800px;
+    width: 700px;
 }
 .choose_sec p{
     font-size: 16px;
@@ -162,7 +169,7 @@ button{
     align-items: center;
     justify-content: center;
     flex-direction:column ;
-    padding: 20px;
+    padding: 40px;
 }
 .price_sec h3{
     font-weight: 700;
@@ -178,6 +185,7 @@ button{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 40px;
 }
 .price_range_flex{
     display: flex;
@@ -197,18 +205,27 @@ button{
 }
 .border_side_right{
     border-right: 1px solid var(--font-black);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
 }
 .border_side_left{
     border-left: 1px solid var(--font-black);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
 }
 .price_range_2{
-    border: 1px solid var(--font-black);
+    border: none;
     padding: 20px;
     border-radius: 10px;
-    height: 350px;
+    height: 370px;
     color: #fff;
     background-color: #1E3448;
 }
+.price_range_btn{
+    margin-top: 20px;
+}
+.p_size{font-size: 1.8rem;
+font-weight: 700;}
 .background_deep_blue{
     background-color: var(--bg-deep-blue);
     width: 100%;
@@ -239,14 +256,19 @@ form input, form select{
     border: 1px solid var(--font-blue);
     padding: 10px;
     border-radius: 10px;
+    width: 100%;
     
 }
 form input:active, form select:active{
     border: 1px solid var(--bg-deep-blue);
 }
-/* form select option:first-child{
-    color: var(--font-blue);
-} */
+.choose_color{
+    color:var(--font-blue);
+    
+}
+.trim_btn{
+    width:100%;
+}
 form input::placeholder, form select::placeholder{
     color: var(--font-blue);
 }
